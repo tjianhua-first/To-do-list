@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
+}
+
+input {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+}
+
+#btn {
+    width: 60px;
+    height: 42px;
+}
+
+#tab li {
+    float: left;
+    width: 80px;
+    height: 41px;
+    line-height: 40px;
+}
+
+.bgc {
+    background-color: #ccc;
+}
+
+#content {
+    margin-top: 45px;
+    background-color: #ccc;
+}
+
+section {
+    display: none;
+    
+}
+
+#content .conactive {
+    display: block;
+}
+
+i {
+    float: right;
+    margin-left: 20px;
+}
